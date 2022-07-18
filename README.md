@@ -10,4 +10,4 @@ CSS3
 Não foi permitido o uso de nenhum framework.
 Não necessitou o uso de Javascript pois não foram solicitadas animações ou interações.
 
-Link do github pages para visualização:
+Link do github pages para visualização: https://nodjalima.github.io/landing_page_resposiva/

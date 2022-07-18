@@ -1,0 +1,201 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+
+#img-header {
+  background-image: url(img/hikurangi-takatu-head-mountain-at-piha.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+  margin-top: 0%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.oculta {
+  display: none;
+}
+
+#txt-header {
+  text-align: center;
+}
+
+.titulo-superior {
+  font-size: 45px;
+  color: rgb(10, 97, 10);
+  font-family: 'DM Sans', sans-serif;
+  margin-bottom: 0%;
+  font-weight: bold;
+  
+}
+
+.subtitulo-superior {
+  font-size: 20px;
+  color: rgb(15, 59, 15);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  
+}
+
+.container-cards {
+  background-color: rgb(78, 78, 78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.card {
+  width: 25%;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+}
+
+.img-card {
+  width: 250px;
+  border: 10px solid gray;
+  
+}
+
+.titulo-card {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.txt-card {
+  padding: 15px;
+
+}
+
+.sec-tres {
+  background-color: gray;
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+  display: flex;
+  padding: 25px;
+  justify-content: space-around;
+  
+}
+
+.img-sec-tres {
+  width: 30%;
+  border-radius: 50%;
+  border: 13px solid rgb(78, 78, 78);
+  
+}
+
+.titulo-sec-tres {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.txt-sec-tres {
+  width: 50%;
+}
+
+.parag-negrito {
+  font-weight: bold;
+}
+
+.parag-italico {
+  font-style: italic;
+}
+
+footer {
+  background-color: rgb(78, 78, 78);
+  background-size: cover;
+  color: white;
+  padding: 0%;
+  border: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+@media (max-width: 700px) {
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #img-header {
+   background-image: none;
+  }
+
+  .oculta {
+    display: inline-block;
+    width: 100%;
+    height: 700px;
+  }
+
+  #txt-header {
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .titulo-superior {
+    font-size: 60px;
+    color: white;
+  }
+
+  .subtitulo-superior {
+    font-size: 30px;
+    color: white;
+    font-weight:normal;
+    width: 70%;
+  }
+
+  .container-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .img-card {
+    width: 80%;
+  }
+
+  .titulo-card, .titulo-sec-tres {
+    font-size: 60px;
+  }
+
+  .txt-card {
+    font-size: 30px;
+  }
+
+  .sec-tres {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-sec-tres {
+    width: 90%;
+  }
+
+  .txt-sec-tres {
+    width: 90%;
+    font-size: 30px;
+  }
+
+  footer {
+    font-size: 50px;
+  }
+}
